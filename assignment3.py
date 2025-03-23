@@ -2,5 +2,11 @@ ls = ["lahore","karachi","multan","peshawar","karor","layyah","jaranwala","islam
 a = []
 for x in ls:
     a.insert(0,x)
+print(a)
+
+for x in ls:
+    a= x[0:1].upper() +x[1:]
     print(a)
+
+
 
